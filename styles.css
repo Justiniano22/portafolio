@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: "Roboto";
+    color: #BDC3C7 ;
+}
+
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-image: url("./images/ChatGPT\ Image\ 17\ abr\ 2025\,\ 15_00_43.png");
+    background-size: cover !important;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.7rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.margenes{
+    margin-top: 50px;
+    margin-bottom: 175px;
+}
+
+.margenesAboutMe{
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.ordenSectionTexto{
+    text-align: center;
+}
+
+.tamañoLista{
+    height: 300px;
+    width: 500px;
+}
+
+.tamañoCard{
+    height: 300px;
+    width: 250px;
+}
+
+.acercaDeMi{
+    width: 750px;
+}
+
+.fondoTarjetas{
+    background-color:#1C1C1E;  
+    font-family: "Roboto";
+    color: #BDC3C7 ;
+}
+
+.colorTextoMenu{
+    color: #BDC3C7 ;
+}
+
+.Borde{
+    border: 1px solid #BDC3C7;
+}
+
+.bordeProyectos{
+    border: 2px solid #BDC3C7;
+    border-radius: 10px;
+}
+
+.fondoDinamico:hover{
+    background-color: #3E5C59 ;
+}
+
+.colorTextoMenu:hover{
+    color: #FFB300;
+}
+
+
+.proyecto{
+    height: 750px;
+    width: auto;
+}
+
+
+
+
+
+
+
+.ubicacionCenter{
+    display: flex;
+    justify-content: center;
+}
+
+
+.tamañoCardProyecto{
+    width: 350px;
+    height: 350px;
+}
+
+.displayCardProyecto{
+    display: flex;
+    justify-content: space-evenly;
+}
+.displayCardProyecto2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.displayCardProyecto3{
+    display: flex;
+    align-items: flex-end;
+}
+
+.volver-al-principio {
+    z-index: 100;
+    position: fixed;
+    transform: translate(750px, 600px);
+}
