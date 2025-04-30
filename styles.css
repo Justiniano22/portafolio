@@ -13,7 +13,7 @@ body{
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 h3{
@@ -118,5 +118,31 @@ p{
 .volver-al-principio {
     z-index: 100;
     position: fixed;
-    transform: translate(750px, 600px);
+    transform: translate(1500px, 600px);
+}
+
+.animate__animated.animate__bounceInDown {
+    --animate-duration: 3s;
+}
+.animate__animated.animate__bounceInRight {
+    --animate-duration: 5s;
+}
+.animate__animated.animate__bounceInLeft {
+    --animate-duration: 7s;
+}
+
+.hello{
+    color: #75AADB;
+}
+
+.justiniano{
+    color: #FCBF49;
+}
+
+.argentina{
+    color: #FFFFFF;
+}
+
+.textoPresentacion{
+    font-size: 4rem;
 }
